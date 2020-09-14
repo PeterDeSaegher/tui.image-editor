@@ -4,8 +4,8 @@ module.exports = {
         "browser": true,
         "amd": true,
         "node": true,
-        "jasmine": true,
-        "jquery": true,
+        "jasmine": false,
+        "jquery": false,
         "es6": true
     },
     "globals": {
@@ -21,6 +21,7 @@ module.exports = {
         'prefer-destructuring': ['error', {
             VariableDeclarator: {array: true, object: true},
             AssignmentExpression: {array: false, object: false}
-        }]
+        }],
+        'linebreak-style': [2, 'windows']
     }
 };
